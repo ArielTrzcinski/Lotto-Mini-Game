@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Symulator Lotto</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <header id="title"><span>Lotto</span> - i Ty możesz zostać Milionerem!</header>
+        <section id="number-container"></section>
+        <section id="scores">
+            <!--            <p class="draw-numbers"></p>-->
+        </section>
+        <div id="buttons">
+            <button id='draw' class='button'>Rozpocznij losowanie</button>
+            <button id='check' class='button'>Sprawdź wynik</button>
+        </div>
+    </div>
+    <div id="modalContainer">
+        <div id="modal">
+            <h2>Wynik</h2>
+            <p id='check-numbers'></p>
+            <button id='remove'>&times;</button>
+            <div id='lastNumbers'></div>
+            <button id="again" class='button'>Zagraj jeszcze raz</button>
+            <button id="againSameNumbers" class='button'>Zagraj jeszcze raz <br> z tymi samymi liczbami</button>
+        </div>
+    </div>
+    <script src='main.js'></script>
+</body>
+
+</html>
